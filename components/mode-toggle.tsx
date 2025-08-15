@@ -16,7 +16,7 @@ export function ModeToggle() {
       aria-label="Toggle theme"
       onClick={() => setTheme(theme === "light" ? "dark" : "light")}
     >
-      {theme === "light" ? <SunIcon /> : <MoonIcon />}
+      {theme === "light" ? <MoonIcon /> : <SunIcon />}
     </Button>
   )
 }
