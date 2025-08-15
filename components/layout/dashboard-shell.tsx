@@ -4,6 +4,7 @@ import { SidebarProvider } from "./sidebar-context"
 import Sidebar from "./sidebar"
 import Navbar from "./navbar"
 import { motion } from "framer-motion"
+// import { AppSidebar } from "../app-sidebar"
 
 export default function DashboardShell({ children }: { children: React.ReactNode }) {
   return (

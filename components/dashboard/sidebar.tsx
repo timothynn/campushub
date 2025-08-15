@@ -25,7 +25,7 @@ export function DashboardSidebar() {
           <Link
             key={href}
             href={href}
-            className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-accent"
+            className="flex items-center gap-3 px-2 py-2 rounded-lg hover:bg-accent"
           >
             <Icon className="h-5 w-5" />
             <span className="text-sm font-medium">{label}</span>
